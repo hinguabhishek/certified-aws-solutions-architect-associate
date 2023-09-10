@@ -10,7 +10,7 @@
 - The location of the data which gets distributed by CloudFront can be in:
     - S3 bucket:
         - Recommended for distributing files and caching them at the edge locations
-        - It offers enhanced security with CloudFront **Origin Access Identity (OAI)**
+        - It offers enhanced security with CloudFront **Origin Access Control (OAC)** which is replacing  ***Origin Access Identity (OAI)***
         - CloudFront can be used as an ingress for uploading files to S3
     - Custom Origin (HTTP) which could be the following:
         - Application Load Balancer
