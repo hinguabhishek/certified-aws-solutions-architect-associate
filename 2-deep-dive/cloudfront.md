@@ -1,6 +1,7 @@
 # AWS CloudFront
 
 - CloudFront is a content delivery network (CDN)
+- It is global service
 - It improves read performance, content is cached at the edge locations (currently there are 216 edge locations globally)
 - CloudFront also offers DDos protection, integration with Shield and integration with AWS WAF (Web Application Firewall)
 - CloudFront allows to expose external HTTPS end-points and it also can talk to internal HTTPS back-ends
