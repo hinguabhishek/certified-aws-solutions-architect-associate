@@ -63,3 +63,12 @@
     - It issues requests as the person whe pre-signed the URL
     - It uses the IAM key of the signing IAM principal
     - It has a limited lifetime
+
+## CloudFront Pricing 
+- CloudFront Edge locations are all around the world
+- The cost of data out per edge locations varies
+- Cost can be reduce by reducing the edge locations
+- There is three type of Price class
+    - Price All (It includes the all edge locations)
+    - Price 200 (It includes all least expensive and few expensive edge locations)
+    - Price 100 (It includes all least expensive edge locations)
