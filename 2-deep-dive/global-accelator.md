@@ -1,0 +1,5 @@
+- You have deloyed an application and have global users who want to access it directly. for this user go over the public internet, which can add a lot of latency due to many hops.
+- To resolve issue we wish to go as fast as possibe through AWS network to minimize latency
+- Unicast IP and Anycast IP
+  - Unicast IP: one server hold one IP address
+  - Anycast IP: All server hold one IP and client routed to the nearest server.
